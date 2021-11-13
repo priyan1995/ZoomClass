@@ -1,49 +1,40 @@
 <?php include_once('header.php'); ?>
 
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<section class="zm-form-sec">
+    <div class="container-fluid">
+        <div class="row zc-aligned-center">
+            <div class="col-12">
+                <div class="centered-box">
+                    <div>
+                        <h4>Zoomclz Tikka</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum obcaecati reprehenderit, porro at nostrum enim atque..</p>
 
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="plugins/slick/slick.css">
-    <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+                        <p class="main-cont mb-0">
+                            Only <strong>Rs.50.00</strong> will be added per student to your monthly subscription
+                        </p>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom/custom-style.css">
-    <link rel="stylesheet" href="css/custom/custom-responsive.css">
+                        <div class="wrapper">
+                            <input type="radio" name="select" id="option-1" >
+                            <input type="radio" name="select" id="option-2">
+                            <label for="option-1" class="option option-1">
+                                <div class="dot"></div>
+                                <span>Add Zoomclz Tikka</span> <span class="prc-fm-lbl-cs-rd">Rs.50/Student</span>
+                            </label> 
+                          
+                        </div>
 
-    <title>Home</title>
-</head>
-<body>
+                        <p>Contact us for more information <strong>0714923367</strong></p>
 
-<!-- Header @pv@an -->
-<header>
-    <nav class="navbar navbar-expand-md navbar-light bg-main fixed-top custom-navbar">
-        <div class="container-fluid container-lg">
-            <!-- Navbar Brand Logo @pv@an -->
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo/Zoomclz%20logo.png" alt="navbar-brand-img">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                        <button type="submit" class="pd-btn" disabled> SKIP </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="d-md-flex ml-auto">
-                    <a href="#" class="text-uppercase green-fill-btn br-25 custom-btn mr-3 h-unset">Create Class</a>
-                    <a href="create-account.html" class="text-uppercase gray-fill-btn br-25 text-white custom-btn h-unset">Sign In</a>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-
-</header>
+    </div>
+</section>
 
 
 
